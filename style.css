@@ -1,0 +1,206 @@
+body {
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  min-width: 320px;
+  width: auto;
+}
+
+.container {
+  min-width: 320px;
+}
+
+.tel {
+  width: auto;
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #2b2b2b;
+  text-decoration: none;
+  font-size: 14px;
+}
+.tel{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.logo-search {
+  width: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 90px;
+  padding-left: 90px;
+  background-color: #232323;
+}
+a {
+  color: #7f7f7f;
+}
+.nav {
+  width: auto;
+  display: block;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-bottom: 35px;
+  background-color: #232323;
+}
+.nav a {
+  margin-left: 40px;
+  color: white;
+}
+.nav a:first-child {
+  margin-left: 0;
+}
+
+.header-search {
+  float: right;
+}
+
+input {
+  float: left;
+  width: 230px;
+  height: 44px;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: none;
+  padding-left: 24px;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #323232;
+}
+
+button {
+  background: url("img/icon-search.png") center center no-repeat;
+  border: none;
+  font-size: 0;
+  width: 44px;
+  height: 44px;
+}
+
+.header-cart {
+  width: 17px;
+  height: 22px;
+  float: right;
+  margin: 0px 12px 0 0;
+  position: relative;
+  font-size: 12px;
+}
+
+.count {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #be926f;
+  border-radius: 50%;
+  line-height: 18px;
+  text-align: center;
+  top: -6px;
+  right: -8px;
+}
+
+.main-banner{
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+
+.title {
+  font-size: 17px;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.product-title {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 22px;
+  text-align: center;
+}
+
+.product-properties {
+  border: 1px solid #be926f;
+  display: inline-block;
+}
+
+.prod-categories {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 24px;
+  color: #c2c2c2;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.cross {
+border: 1px solid #e6e6e6;
+  border-right: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+ .prod-add{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  width: 130px;
+  height: 84px;
+  margin: auto;
+
+ transition: opacity 0.2s;
+}
+.product-properties .prod-add .Add-to-Cart {
+  background-color: #be926f;
+  display: block;
+  padding: 9px 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.8666em;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+.cross:last-child {
+  border-right: 1px solid #e6e6e6;
+}
+
+.product-price {
+  font-size: 1.3333em;
+  color: #be926f;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 23px;
+}
+.product-properties .prod-add ul {
+  display: flex;
+  justify-content: space-between;
+}
+.product-properties .prod-add ul a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #be926f;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.product-properties .prod-add .favorites {
+  background-image: url("/img/favorite.png");
+
+}
+.product-properties .prod-add .comparition  {
+  background-image: url("/img/compare.png");
+}
+
+.product-properties .prod-add .zoom  {
+  background-image: url("/img/zoom.png");
+}
+.cross:hover .product-properties:before,
+.cross:hover .product-properties .ul {
+  opacity: 1;
+}
+
+.cross:hover .product-title {
+  color: #be926f;
+}
+
